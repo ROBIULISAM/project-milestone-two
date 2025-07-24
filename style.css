@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+ color: black}
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+header{
+    max-width: ;
+    margin: 0 auto;
+}
+.home{
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #322432;
+  height: 1.5em;
+}
+.shop-about{
+    color: #8987A1;
+}
