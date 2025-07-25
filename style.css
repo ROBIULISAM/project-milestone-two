@@ -6,13 +6,13 @@
   list-style: none;
   background-color: ;
   color: black;
+  background-color: aliceblue;
 }
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
 header {
   max-width: 1140px;
   margin: 0 auto;
-  height: 71;
-  background-color: aliceblue;
+  height: 15.5em;
 }
 /* shared style */
 .display {
@@ -21,6 +21,19 @@ header {
   /* text-align: center; */
   align-items: center;
 }
+.colour{
+  color: #8987A1;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 120px;
+  justify-content: space-between;
+  height: 461px;
+}
+/* font */
 .home {
   font-family: "Agbalumo", system-ui;
   font-weight: 400;
@@ -34,40 +47,169 @@ li {
 .shop-about {
   color: #8987a1;
 }
+
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main > section {
+  margin-top: 120px;
+}
+
+/* banner font */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+.common-font {
+  font-family: "Noto Serif", serif;
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.primary {
+  color: #e95a08;
+}
+/* section two */
+.plants {
+  align-items: center;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.design {
+  font-family: "Noto Serif", serif;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  
+}
+/* section two */
+.two {
+  
+}
+.include{
+  font-family: "Inter", sans-serif;
+ font-size: 1.3em;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #8987A1;
+}
+.lilly{
+  margin-top: 2rem;
+}
+.btn{
+  padding: 19px 91px ;
+  font-family: "Inter", sans-serif;
+ font-size: 1 rem;
+  font-weight:700px;
+  font-style: normal;
+ background-color: #e95a08;
+ color: white;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  
+}
+.card{
+margin-bottom: 20px;
+text-align: center;
+}
+.three{
+  display: flex;
+  margin-top: 210px;
+  justify-content: space-between;
+}
+.lover{
+  margin-left: 60px;
+  width: 540px;
+  height: 521px;
+}
+.plants-lover{
+  font-family: "Noto Serif", serif;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: black;
+  line-gap-override: 3px;
+}
+ol>li{
+  margin-top:20px ;
+  height: 108;
+  list-style: circle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 393px) {
   ul > li {
     display: none;
   }
   header {
     background-color: aqua;
+    width: 361px;
+    height: 38px;
   }
+  .logo-first {
+    width: 63px;
+    height: 38;
+  }
+  .cart {
+    width: 113px;
+    height: 24px;
+  }
+  .hero {
+    height: 245px;
+  }
+  .first {
+    flex-direction: column-reverse;
+    width: 393px;
+  }
+  .left-content {
+    margin: 28px auto;
+  }
+  .right-content {
+    width: 393px;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+  .three{
+  display: flex;
+  flex-direction: column;
 }
-main {
-  max-width: 1140px;
-  margin: 0 auto;
- 
-/* banner font */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
-.banner-font{
-  font-family: "Noto Serif", serif;
- font-size: 4rem;
-  font-weight: bold;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.store{
+  width: 100%;
+  margin-left: 20px;
 }
-.primary{
-    color:#E95A08 ;
 }
-.left-content{
-    margin: 162px auto 0 0;
-}
-.right-content{
-    margin-top: 106px;
-}
-.banner{
- max-width: 1140px;
-  margin-top: 120px;
-  height: 461px;
-  background-color: aliceblue;
-}
+/* @media screen and (max-width:px){
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+} */
