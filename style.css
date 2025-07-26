@@ -203,8 +203,8 @@ ol>li{
   flex-direction: column;
 }
 .store{
-  width: 100%;
-  margin-left: 20px;
+  margin: 0  auto;
+ 
 }
 }
 /* @media screen and (max-width:px){
