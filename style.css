@@ -4,15 +4,21 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  background-color: ;
+ 
   color: black;
-  background-color: aliceblue;
+
 }
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
 header {
   max-width: 1140px;
   margin: 0 auto;
   height: 15.5em;
+}
+.nav-ber{
+   display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  align-items: center;
 }
 /* shared style */
 .display {
@@ -73,6 +79,15 @@ main > section {
 .plants {
   align-items: center;
   text-align: center;
+}
+.four {
+  
+  width: 1140px ;
+}
+.four-plant{
+  align-items: center;
+  text-align: center;
+ 
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 .design {
@@ -135,17 +150,124 @@ text-align: center;
   color: black;
   line-gap-override: 3px;
 }
+ol{
+  margin-top: 20px;
+}
 ol>li{
   margin-top:20px ;
   height: 108;
   list-style: circle;
+  font-size: 1.5em;
 }
+.deals{
+  font-size: 3rem;
+  font-weight: bold;
 
-
-
-
-
-
+}
+/* section five */
+percent{
+  font-family: "Noto Serif", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #FFFFFF;
+}
+mini-percent{
+  font-family: "Inter", sans-serif;
+ font-size: 1.56 rem;
+  font-weight:600px;
+  font-style: normal;
+ 
+ color: white;
+}
+.four{
+  width: 1440px;
+  height: 138px;
+}
+.five{
+  width: 1140px;
+  height: 423px;
+  
+}
+.teacher{
+  width: 367px;
+  height: 423px;
+  background-color: #8987a1;
+background-image: url(img/deal-bloom.png);
+}
+.private{
+  
+}
+.image-contains{
+  width: 753px;
+  height: 423px;
+  background-color: gold;
+  background-image: url(img/deal-zabo.png);
+}
+.subscribe-section {
+  background-image: url('img/news-letter-bg.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 533px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.content {
+  color: #FFFFFF;
+  padding: 40px;
+  border-radius: 10px;
+ 
+}
+.content h2{
+  color: white;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;}
+  .form-container input {
+  flex: 1;
+  padding: 19px 30pxs;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+.form-container button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 19px 53px;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  font-family: "Inter", sans-serif;
+ font-size: 1 em;
+  font-weight: 600px >;
+  font-style: normal;
+  color: #8987A1;
+}
+.form-container button {
+  background-color:#e95a08 ;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+ 
+}
+footer{
+  margin-top: 20px;
+}
+.main ul>li{
+  margin-top: 20px;
+}
 
 
 
@@ -164,13 +286,15 @@ ol>li{
 
 
 @media screen and (max-width: 393px) {
-  ul > li {
+  .item-list > li {
     display: none;
   }
   header {
+    margin: 0 auto;
     background-color: aqua;
     width: 361px;
     height: 38px;
+    margin-left: 80px;
   }
   .logo-first {
     width: 63px;
@@ -188,10 +312,15 @@ ol>li{
     width: 393px;
   }
   .left-content {
-    margin: 28px auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 50px ;
   }
   .right-content {
     width: 393px;
+  }
+  .plants{
+    margin-left: 50px;
   }
   .cards{
     display: grid;
@@ -203,9 +332,36 @@ ol>li{
   flex-direction: column;
 }
 .store{
-  margin: 0  auto;
- 
+
+ width: 100%;
 }
+
+.four{
+  display: flex;
+justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  width: 336px;
+  height: 68px;
+}
+.seven{
+  max-width: 100%;
+  margin: 0 auto;
+  height: 461px;
+    display: grid;
+  grid-template-columns: repeat(1,1fr);
+  border-radius: 20px;
+  
+ }
+   menu, ul {
+      flex-direction: column;
+    }
+    footer{
+      flex-direction: column;
+    }
+}
+.subscribe-section {
+  width: 100%;
 }
 /* @media screen and (max-width:px){
   .cards{
@@ -213,3 +369,4 @@ ol>li{
     grid-template-columns: repeat(2,1fr);
   }
 } */
+ 
